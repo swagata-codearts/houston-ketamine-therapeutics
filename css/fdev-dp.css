@@ -34,3 +34,23 @@
     object-fit: contain;
   }
   /* -------Header Middle End-------- */
+  /* -------Header bottom start-------- */
+  .header-btm {
+    padding: 20px 0;
+  }
+  .custom-header-navbar ul.navbar-nav li a {
+    color: #424242;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--ff-heading);
+    font-weight: 500;
+    padding: 0 !important;
+  }
+  .custom-header-navbar ul.navbar-nav li {
+    margin: 0 17px;
+  }
+  /* -------Header bottom end-------- */
+
+
+
+  /* ==========================Header End==================== */
