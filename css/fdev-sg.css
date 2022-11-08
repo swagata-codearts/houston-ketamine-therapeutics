@@ -229,7 +229,8 @@ margin-top: 58px;
 .service-box {
 background-color: var(--c-white);
 box-shadow: 0 0 10px rgba(0,0,0,0.2);
-min-height: 380px;
+min-height: 370px;
+margin-top: 90px;
 }
 .service-box-top-txt {
 padding: 30px;
@@ -271,5 +272,13 @@ padding-left: 6px;
 }
 .service-box-bottom-txt a:hover {
 color:var(--c-primary-text);
+}
+.service-head-text p {
+font-family: var(--ff-primary);
+font-size: 16px;
+font-weight: 400;
+color: var(--c-primary-text);
+line-height: 30px;
+padding: 0 80px;
 }
 /*Testimonial-fdev-sg*/
