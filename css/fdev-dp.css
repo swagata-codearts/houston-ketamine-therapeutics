@@ -1,3 +1,6 @@
+/* ==========================Header Start==================== */
+
+/* -------Header Top start-------- */
 .header-top {
     background-color:var(--c-grey);
     padding: 10px 0;
@@ -20,3 +23,14 @@
     color: var(--c-primary-text);
     line-height: 16px;
   }
+/* -------Header Top end-------- */
+/* -------Header Middle start-------- */
+.header-middle {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 28px 0;
+  }
+  .desktop-website-logo a img {
+    height: 45px;
+    object-fit: contain;
+  }
+  /* -------Header Middle End-------- */
