@@ -127,5 +127,10 @@ color:var(--c-primary)
 .footer-header.py-xl-3.py-2 {
 margin-top: 78px;
 }
-
 /*footer-fdev-sg*/
+/*contact-form-fdev-sg*/
+.contact-form.custom-pad .custom-heading {
+text-align: center;
+}
+
+/*contact-form-fdev-sg*/
