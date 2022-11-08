@@ -226,4 +226,50 @@ line-height: 58px;
 .testimonial-content {
 margin-top: 58px;
 }
+.service-box {
+background-color: var(--c-white);
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+min-height: 380px;
+}
+.service-box-top-txt {
+padding: 30px;
+}
+.service-box-bottom-txt {
+padding: 30px;
+border-top: 1px solid var(--c-primary-light);
+}
+.service-box-top-txt img {
+height: 70px;
+}
+.service-box-top-txt h4 {
+font-family: var(--ff-heading);
+font-size: 18px;
+font-weight: 600;
+color: var(--f-primary-heading);
+text-transform: uppercase;
+margin-top: 20px;
+}
+.service-box-bottom-txt p {
+font-size: 16px;
+color: var(--c-primary-text);
+line-height: 30px;
+font-weight: 400;
+font-family: var(--ff-primary);
+margin-bottom: 20px;
+}
+.service-box-bottom-txt a {
+text-decoration: none;
+color: var(--c-primary);
+font-family: var(--ff-heading);
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+transition: all 0.2s ease-in-out;
+}
+.service-box-bottom-txt a span {
+padding-left: 6px;
+}
+.service-box-bottom-txt a:hover {
+color:var(--c-primary-text);
+}
 /*Testimonial-fdev-sg*/
