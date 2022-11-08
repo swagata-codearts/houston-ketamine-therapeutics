@@ -68,11 +68,45 @@
   }
   /* -------Header bottom end-------- */
 
-
-
   /* ==========================Header End==================== */
 
+  /* ==========================Custom Banner Start================== */
 
+  .custom-caption h2 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 82px;
+  }
+  .custom-caption h2 span {
+    font-weight: 300;
+    display: block;
+  }
+  .custom-caption p {
+    font-size: 20px;
+    color: var(--c-white);
+    margin: 26px 0 42px;
+  }
+  .custom-caption {
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .custom-caption .custom-button:hover{
+    color: var(--c-white);
+  }
+
+
+
+
+
+
+
+
+
+
+/* ==========================Custom Banner End================== */
 
 
 
