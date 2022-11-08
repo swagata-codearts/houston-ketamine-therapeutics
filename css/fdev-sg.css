@@ -17,6 +17,16 @@ font-size: 20px;
 font-weight: 600;
 color: var(--c-white);
 text-transform: uppercase;
+position: relative;
+}
+.footer-heading::after {
+position: absolute;
+content: '';
+background-color: var(--c-primary);
+width: 22px;
+height: 3px;
+bottom: -20px;
+left: 0;
 }
 .footer-content p {
 font-family: var(--ff-primary);
@@ -41,6 +51,10 @@ font-size: 17px;
 font-weight: 400;
 color: var(--c-primary-light);
 text-decoration: none;
+transition:all 0.3s ease-in-out;
+}
+.teratment-list li a:hover {
+color: var(--c-primary);
 }
 .footer-content .contact-list {
 margin-top: 52px;
@@ -56,6 +70,10 @@ font-size: 17px;
 font-weight: 400;
 color: var(--c-primary-light);
 text-decoration: none;
+transition:all 0.3s ease-in-out;
+}
+.footer-content .contact-list li a:hover {
+color: var(--c-primary);   
 }
 .footer-content .contact-list li a span {
 position: absolute;
@@ -64,4 +82,50 @@ display: inline-block;
 color:var(--c-primary);
 font-size: 18px;
 }
+.copyright {
+text-align: center;
+border-top: 2px solid var(--c-primary-text);
+margin-top: 32px;
+}
+.copyright p {
+font-family: var(--ff-primary);
+font-size: 15px;
+font-weight: 500;
+color: var(--c-primary-light);
+padding: 34px 0;
+}
+.footer-wrap.custom-pad {
+padding: 110px 0 0;
+}
+.footer-header.py-xl-3.py-2 .container-fluid {
+padding: 0 0;
+}
+.footer-header.py-xl-3.py-2 .nav-link.active {
+font-family: var(--ff-heading);
+font-size: 16px;
+font-weight: 600;
+color: var(--c-primary-light);
+text-transform: uppercase;
+padding-right: 0px;
+transition: 0.3s ease-in-out;
+}
+.footer-header.py-xl-3.py-2 .nav-link.active:hover {
+color:var(--c-primary)
+}
+.footer-header.py-xl-3.py-2 .nav-link {
+font-family: var(--ff-heading);
+font-size: 16px;
+font-weight: 600;
+color: var(--c-primary-light);
+text-transform: uppercase;
+padding-left: 64px;
+transition: 0.3s ease-in-out;
+}
+.footer-header.py-xl-3.py-2 .nav-link:hover {
+color:var(--c-primary)
+}
+.footer-header.py-xl-3.py-2 {
+margin-top: 78px;
+}
+
 /*footer-fdev-sg*/
