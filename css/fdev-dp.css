@@ -184,35 +184,57 @@
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
-
+.custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
+.custom-banner .carousel-item img {height: 590px;object-fit: cover;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){	
-
+    .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
+    .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
+    .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-
+    .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
+    .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
+    .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-
+    .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
+    .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
+    .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
 }
 
 @media only screen and (max-width: 991.98px) {    
-
+    .custom-header-navbar .navbar-nav {background-color: var(--c-primary);padding: 20px;
+        margin-top: 6px !important;}
+    .custom-header-navbar ul.navbar-nav li a {color: #fff;padding: 10px 0 !important;     border-bottom: 1px dashed #f1f1f1;font-size: 15px;}
+    .custom-header-navbar ul.navbar-nav li:last-child a{border-bottom: 0;}
+    .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
+    .custom-caption h2 {font-size: 52px;line-height: 58px;}
+    .custom-caption p {font-size: 18px;margin: 18px 0 28px;}
+    .custom-banner .carousel-item img {height: 420px;}
+    
 }
 
 
 @media (max-width: 767.98px){
-
+    .custom-brand img {height: 30px;}
+    .custom-caption h2 {font-size: 36px;line-height: 40px;}
+    .custom-caption p {font-size: 14px; margin: 10px 0 19px;}
+    .custom-banner .carousel-item img {height: 340px;}
 }
 
 @media (max-width: 575.98px){
-
+    .header-top-col-wrap a p {display: none;}
+    .header-top-col-wrap a span {width: 30px;height: 30px;background-color: var(--c-primary);
+        color: var(--c-white);text-align: center;border-radius: 2px;line-height: 31px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
     
 }
-
+@media only screen and (max-width: 390px) {	
+    .custom-brand img {height: 22px;}
+}
