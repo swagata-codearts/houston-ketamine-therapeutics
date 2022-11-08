@@ -96,23 +96,18 @@
   .custom-caption .custom-button:hover{
     color: var(--c-white);
   }
-
-
-
-
-
-
-
-
-
-
 /* ==========================Custom Banner End================== */
 
+/* ==========================Custom About Start================== */
+.custom-about p {
+    font-size: 21px;
+    color: var(--c-primary-text);
+    line-height: 48px;
+    margin-top: -16px;
+  }
 
 
-
-
-
+/* ==========================Custom About End================== */
 
 
 

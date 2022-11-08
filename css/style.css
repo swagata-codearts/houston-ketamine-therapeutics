@@ -137,6 +137,9 @@ display: none;
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 /*Custom-heading-fdev-sg*/
+.custom-heading{
+    margin-bottom: 60px;
+}
 .custom-heading h3 {
 font-family:var(--ff-heading);
 font-size: 44px;
