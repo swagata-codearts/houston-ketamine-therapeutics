@@ -132,5 +132,28 @@ margin-top: 78px;
 .contact-form.custom-pad .custom-heading {
 text-align: center;
 }
-
+.contact-form .form-control {
+border-radius: 0;
+padding: 20px 20px;
+margin-bottom: 20px;
+font-family: var(--ff-primary);
+font-size: 14px;
+font-weight: 400;
+background-color: var(--c-grey);
+}
+.contact-form #formGroupExampleInput2 {
+padding: 20px 20px 195px;
+background-color: var(--c-grey);
+}
+.contact-form .form-btn {
+text-align: center;
+margin-top: 40px;
+}
+.contact-form .appointment-form {
+margin-top: 55px;
+}
+.contact-form .custom-heading h6 {
+padding: 0 320px;
+line-height: 30px;
+}
 /*contact-form-fdev-sg*/
