@@ -1,8 +1,9 @@
 // JavaScript Document
-jQuery('#custom-owl').owlCarousel({
+jQuery('#testimonial-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    dots:true,
     responsive:{
         0:{
             items:1
@@ -10,8 +11,11 @@ jQuery('#custom-owl').owlCarousel({
         600:{
             items:1
         },
+        800:{
+            items:2
+        },
         1000:{
-            items:1
+            items:3
         }
     }
 });

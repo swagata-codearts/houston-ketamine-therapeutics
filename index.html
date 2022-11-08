@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -9,55 +10,547 @@
   <!-- Owl Carousel Stylesheet -->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <!-- Custom CSS Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fdev-sg.css">
+  <link rel="stylesheet" href="css/fdev-dp.css">
   <!-- Responsive CSS Stylesheet -->
-   <link rel="stylesheet" href="css/responsive.css"> 
+  <link rel="stylesheet" href="css/responsive.css">
   <!-- Fontawesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <title>Company_Name</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+  <title>Houston Ketamine Therapy</title>
 </head>
+
 <body>
-  <!-- Owl Carousel Structure --><!---->
+  <!-- Owl Carousel Structure -->
+  <!----->
   <!--
     <div id="custom-owl" class="owl-carousel owl-theme">
     	<div class="item"><h4>1</h4></div>
 	</div>
 -->
-  <header class="custom-header py-xl-3 py-2">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg py-0">
-          <a class="navbar-brand ms-0 py-0" href="#">LOGO HERE</a>
-          <div class="navbar-header me-0">
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>              
-            </ul>
+  <!--
+  <div class="custom-heading">
+    <h3>About us</h3>
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magnam.</h6>
+  </div>
+-->
+  <!--<a class="custom-button border-btn" href="javascript:void(0)" target="_self">Learn More</a>-->
+  <header class="custom-header">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-6 align-self-center">
+            <div class="header-top-left header-top-col-wrap">
+              <a href="https://goo.gl/maps/jPoc69yQx6sMSsZeA"><span><i class="las la-map-marker"></i></span>
+                <p class="demo">6565 West Loop South, Suite 530 Bellaire, Texas</p>
+              </a>
+            </div>
           </div>
-      </nav>
-    </div>    
+          <div class="col-md-6 col-6 align-self-center">
+            <div class="header-top-right header-top-col-wrap justify-content-end d-flex">
+              <a href="tel:832.436.4055"><span><i class="las la-phone"></i></span>
+                <p class="demo">832.436.4055</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle d-xxl-block d-xl-block d-lg-block d-md-none d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="desktop-website-logo text-center">
+              <a href="javascript:void(0)">
+                <img src="images/logo.webp" alt="Site Logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-btm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar custom-header-navbar navbar-expand-lg py-0">
+              <a class="navbar-brand ms-0 py-0 custom-brand d-xxl-none d-xl-none d-lg-none" href="#"><img src="images/logo.webp" alt="Site Logo"></a>
+              <div class="navbar-header me-0">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Why Choose Us?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" >
+                      Why Ketamine? 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Understanding Ketamine</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      <li><a class="dropdown-item" href="#">Pricing</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Treatments</a>
+                  </li>    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Spravato</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ketamine + Deep TMS</a>
+                  </li> 
+                  <li class="nav-item dropdown">
+                    <a a class="nav-link" href="#" id="navbarDropdown-2">
+                      Make Appointment
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Patient Questionaire</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Articles</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Media Appearances</a>
+                  </li>                             
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
-  
+<section class="custom-banner">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/main-banner.webp" class="w-100" alt="banner slider image">
+        <div class="carousel-caption custom-caption">
+          <h2>Ketamine Infusion <span>and Intranasal Treatments</span></h2>
+          <p class="demo">Effective & Innovative Treatments for Depression, Anxiety, PTSD and OCD 832-436-4055</p>
+          <a class="custom-button" href="javascript:void(0)" target="_self">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="custom-about custom-pad">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="custom-heading">
+          <h3>About us</h3>
+        </div>
+        <p class="demo">We offer both IV ketamine and intranasal FDA approved, insurance covered nasal esketamine (Spravato.) Dr. Prashad understands the importance of creating unique treatment plans for each patient including combining ketamine with oral medications or Brainsway’s deep TMS in order to maximize results. In addition, each infusion is specifically tailored to each patient. There is no pre-determined set time limit or dosage; we customize each treatment. Dr. Prashad has extensive experience with using ketamine and is one of the most experienced ketamine psychiatrists in the country.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="custom-offer custom-pad">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-md-12">
+        <div class="custom-heading text-center">
+          <h3>What We Can Offer</h3>
+          <h6>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour randomised words which don't look even slightly believable</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/relax.webp" alt="Relaxation">
+          </div>
+          <div class="offer-card-content">
+            <h4>Relaxation </h4>
+            <p class="demo">Focus your attention on calmness and increase your personal awareness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/mind-game.webp" alt="Mind games">
+          </div>
+          <div class="offer-card-content">
+            <h4>Mind games</h4>
+            <p class="demo">It is crucial to understand how to prevent others from playing such games with you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/depression.webp" alt="Depression">
+          </div>
+          <div class="offer-card-content">
+            <h4>Depression</h4>
+            <p class="demo">If your depression is keeping you from living your life don’t hesitate to seek help.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/meditation.webp" alt="Meditation">
+          </div>
+          <div class="offer-card-content">
+            <h4>Meditation</h4>
+            <p class="demo">Learn how to deal with difficult emotions and feelings by using healthy strategies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/conflict.webp" alt="Conflicting Icon">
+          </div>
+          <div class="offer-card-content">
+            <h4>Conflicting</h4>
+            <p class="demo">Invaluable insight into the knowledge of reducing conflict in relationship.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/feeling.webp" alt="Feelings Icon">
+          </div>
+          <div class="offer-card-content">
+            <h4>Feelings</h4>
+            <p class="demo">Achieve a better level of your well-being and the ability to manage feelings.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/mental-health.webp" alt="Mental Health  Icon">
+          </div>
+          <div class="offer-card-content">
+            <h4>Mental Health </h4>
+            <p class="demo">Improve your focus, relieve stress and anxiety, and develop creativity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-6">
+        <div class="offer-card-wrap">
+          <div class="offer-card-icon">
+            <img src="images/relationship.webp" alt="Relationship Icon">
+          </div>
+          <div class="offer-card-content">
+            <h4>Relationship </h4>
+            <p class="demo">A therapy that helps establish a more profound ground for healthy relationship.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!--Services-start-fdev-sg-->
+ <section class="service custom-pad">
+  <div class="container service-gap">
+    <div class="row">
+      <div class="col-lg-3 col-md-12 align-self-center">
+        <div class="custom-heading">
+          <h3>Our Services</h3>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12 align-self-center">
+        <div class="service-head-text">
+          <p>Our goal is to provide the services needed in order to maximize the success of ketamine infusions. We
+            have developed a process to ensure you not only fit the profile for ketamine but are positioned from the
+            start for success.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 px-3 align-self-center">
+        <div class="service-box">
+          <div class="service-box-top-txt">
+            <img src="images/service-img-1.webp" alt="service-img-1">
+            <h4>Psychiatric Care</h4>
+          </div>
+          <div class="service-box-bottom-txt">
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown text.</p>
+            <a clsss="service-button" href="javascript:void(0)" target="_self">Read More <span><i
+                  class="fas fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 px-3 align-self-center">
+        <div class="service-box">
+          <div class="service-box-top-txt">
+            <img src="images/service-img-2.webp" alt="service-img-2">
+            <h4>Medical & Psychiatric Evaultions</h4>
+          </div>
+          <div class="service-box-bottom-txt">
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown text.</p>
+            <a clsss="service-button" href="javascript:void(0)" target="_self">Read More <span><i
+                  class="fas fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 px-3 align-self-center">
+        <div class="service-box">
+          <div class="service-box-top-txt">
+            <img src="images/service-img-3.webp" alt="service-img-3">
+            <h4>Ketamine Infusions</h4>
+          </div>
+          <div class="service-box-bottom-txt">
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown text.</p>
+            <a clsss="service-button" href="javascript:void(0)" target="_self">Read More <span><i
+                  class="fas fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Services-start-fdev-sg-->
+<!--Testimonnial-start-fdev-sg-->
+<section style="background-image: url(./images/testimonial-bg.webp);" alt="testimonial-bg"
+  class="testimonial custom-pad">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="custom-heading">
+          <h3>Resources & Recovered Patients Over The Globe!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="testimonial-content">
+        <div class="owl-carousel owl-theme" id="testimonial-carousel">
+          <div class="item">
+            <div class="testimonial-box">
+              <ul class="client-img">
+                <li><img src="images/austin.webp" alt="austin"></li>
+                <li>
+                  <h4>Austin Russel</h4>
+                  <h5>Lorem Dummy</h5>
+                </li>
+              </ul>
+              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                centuries</p>
+              <div class="quote">
+                <img src="images/quote.webp">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box">
+              <ul class="client-img">
+                <li><img src="images/jessica.webp" alt="jessica"></li>
+                <li>
+                  <h4>Jessica Lawson</h4>
+                  <h5>Lorem Dummy</h5>
+                </li>
+              </ul>
+              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                centuries</p>
+              <div class="quote">
+                <img src="images/quote.webp">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box">
+              <ul class="client-img">
+                <li><img src="images/damien.webp" alt="damien"></li>
+                <li>
+                  <h4>Damien Cristian</h4>
+                  <h5>Lorem Dummy</h5>
+                </li>
+              </ul>
+              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                centuries</p>
+              <div class="quote">
+                <img src="images/quote.webp">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Testimonnial-end-fdev-sg-->
+<!--contact-form-start-fdev-sg-->
+<section class="contact-form custom-pad">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="custom-heading">
+          <h3>Make An Appointment</h3>
+          <h6>We look forward to hearing from you. Fill out the form below and someone from our office will contact
+            you within 24 hours.</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-md-12 align-self-center">
+        <div class="appointment-form">
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Phone Number" aria-label="Number">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Mail">
+              </div>
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Date" aria-label="Date">
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
+            </div>
+            <div class="form-btn">
+              <input class="custom-button border-btn" type="button" value="Submit Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--contact-form-end-fdev-sg-->
+<!--Footer-start-fdev-sg-->
+<footer>
+  <div style="background-image: url(./images/footer-bg.webp);" alt="footer-bg" class="footer-wrap custom-pad">
+    <div class="container-fluid container-gap">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-content">
+            <h4 class="footer-heading">About Us</h4>
+            <p>Focused, guided, physician administered ketamine infusions for treatment resistant severe depression,
+              PTSD and bi-polar depression.</p>
+            <ul class="social-icons">
+              <li><a href="#"><img src="images/fb.webp" alt="fb"></a></li>
+              <li><a href="#"><img src="images/instagram.webp" alt="insta"></a></li>
+              <li><a href="#"><img src="images/google+.webp" alt="google+"></a></li>
+              <li><a href="#"><img src="images/linkedin.webp" alt="in"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-content">
+            <h4 class="footer-heading">Treatments</h4>
+            <ul class="teratment-list">
+              <li><a href="#">Severe Depression</a></li>
+              <li><a href="#">PTSD</a></li>
+              <li><a href="#">Bipolar Disorder</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-content">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117984.76084448436!2d88.375296!3d22.4657408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1sen!2sin!4v1667899799645!5m2!1sen!2sin"
+              width="470" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-content">
+            <h4 class="footer-heading">CONTACT INFOMATION</h4>
+            <ul class="contact-list">
+              <li><a href="#"><span><i class="las la-map-marker"></i></span>6565 West Loop South,Suite 530 Bellaire,
+                  Texas</a></li>
+              <li><a href="#"><span><i class="las la-phone"></i></span>832.436.4055</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 align-self-center">
+          <header class="footer-header py-xl-3 py-2">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg py-0">
+                <a class="navbar-brand ms-0 py-0" href="#"><img src="images/footer-logo.webp" alt="footer-logo"></a>
+                <div class="navbar-header me-0">
+                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Why Choose Us?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Why Ketamine?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Treatments</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Spravato</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Appearences</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            <p>© Copyright 2017 - 2022 | Houston Ketamine Therapeutics | All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Footer-end-fdev-sg-->
   <script src="js/jquery-min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
