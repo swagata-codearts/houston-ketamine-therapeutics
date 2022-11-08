@@ -1,0 +1,22 @@
+.header-top {
+    background-color:var(--c-grey);
+    padding: 10px 0;
+  }
+  .header-top a{
+    margin: 0;
+  }
+  .header-top-col-wrap a {
+    display: flex;
+    align-items: center;
+   
+  }
+  .header-top-col-wrap a span {
+    margin: 0 6px 0 0;
+    font-size: 18px;
+    
+  }
+  .header-top-col-wrap a p{
+    font-size:14px;
+    color: var(--c-primary-text);
+    line-height: 16px;
+  }
