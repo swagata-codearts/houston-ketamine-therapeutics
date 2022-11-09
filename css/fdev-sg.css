@@ -282,3 +282,40 @@ line-height: 30px;
 padding: 0 80px;
 }
 /*Testimonial-fdev-sg*/
+/*client-video-fdev-sg*/
+.client-video {
+background-color: #222d35;
+}
+.client-video-content h2 {
+font-family: var(--ff-heading);
+font-size: 44px;
+font-weight: 700;
+color: var(--c-white);
+text-transform: capitalize;
+line-height: 56px;
+}
+.client-video-content p {
+font-size: 18px;
+color: var(--c-primary-light);
+line-height: 38px;
+font-weight: 400;
+font-family: var(--ff-primary);
+margin-top: 15px;
+}
+.client-video-button {
+margin-top: 40px;
+}
+.client-video-content {
+padding: 102px 240px 0;
+position: relative;
+}
+.client-video-content::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-primary);
+    width: 103%;
+    height: 100px;
+    bottom: -204px;
+    left: -12px;
+  }
+/*client-video-fdev-sg*/
