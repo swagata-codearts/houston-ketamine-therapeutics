@@ -2,10 +2,10 @@
 /* CSS Document */
 
 @media (min-width: 1920px) and (max-width: 2500px){
-	
+
 }
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -60,13 +60,17 @@
 
 @media (max-width: 767.98px){
 .custom-pad {padding:50px 0;}
+.custom-heading h6 {font-size: 14px;}
+.custom-heading h3 {font-size: 24px;}
 }
 
 @media (max-width: 575.98px){
 .custom-pad {padding:40px 0;}
+.custom-heading h6 {line-height: 22px;margin-top: 10px;}
+.custom-button.border-btn {padding: 12px 38px;font-size: 12px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+.custom-heading h3 {font-size: 22px;}
 }
 
