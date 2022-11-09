@@ -221,6 +221,26 @@ text-align: center;
 padding: 0 350px;
 line-height: 58px;
 }
+.testimonial.custom-pad .owl-dot.active span {
+background-color: var(--c-primary);
+height: 30px;
+width: 7px;
+display: inline-block;
+border-radius: 50px;
+transition: all 0.2s ease-in-out;
+}
+.testimonial.custom-pad  .owl-dot span {
+background-color: var(--c-primary-text);
+height: 7px;
+width: 7px;
+display: inline-block;
+border-radius: 50px;
+margin: 0 8px;
+}
+.testimonial.custom-pad  .owl-dots {
+text-align: center;
+margin-top: 20px;
+}
 /*Testimonial-fdev-sg*/
 /*service-fdev-sg*/
 .service-box {
@@ -348,6 +368,34 @@ margin: 0 auto;
 position: absolute;
 top: 0;
 right: 0;
+height: 799px;
+object-fit: cover;
+}
+.client-video .modal-dialog {
+max-width: 90%;
+}
+.client-video .modal-content {
+height: 100vh;
+}
+.client-video  iframe {
+width: 100%;
+height: 95vh;
+}
+.client-video .modal-body {
+width: 100%;
+}
+.client-video .modal-header {
+position: absolute;
+right: 0;
+z-index: 5;
+background-color: var(--c-primary);
+border-radius: 0;
+border-bottom: 1px solid transparent;
+}
+.client-video .modal-header .btn-close {
+padding: 0rem 0rem;
+margin: 0rem 0rem 0rem auto;
+color: var(--c-white);
 }
 /*client-video-fdev-sg*/
 /*Home-page-End-fdev-sg*/
