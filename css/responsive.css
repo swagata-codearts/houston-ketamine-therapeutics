@@ -10,6 +10,7 @@
 
 @media (min-width: 1366px) and (max-width: 1600px){
 .container {max-width: 1200px;}
+.custom-heading h3 {font-size: 38px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){	
