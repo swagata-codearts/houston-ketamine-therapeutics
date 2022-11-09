@@ -92,9 +92,24 @@
     bottom: auto;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 9;
   }
   .custom-caption .custom-button:hover{
     color: var(--c-white);
+  }
+  .custom-banner .carousel-inner {
+    position: relative;
+    z-index: 9;
+  }
+  .custom-banner .carousel-inner::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.30);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 /* ==========================Custom Banner End================== */
 
@@ -169,6 +184,7 @@
   font-size: 28px;
   font-weight: 800;
   margin-top: 14px;
+  color: var(--c-white);
 }
 .exp-img-content h1 span {
   display: block;
@@ -240,8 +256,44 @@
 .custom-exp-content .custom-button {
   margin-top: 34px;
 }
-
-
+.exp-img-content::before {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-top: 2px solid #9ec5ca;
+  border-left: 2px solid #9ec5ca;
+  left: 10px;
+  top: 10px;
+}
+.exp-img-content::after {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-top: 2px solid #9ec5ca;
+  border-right: 2px solid #9ec5ca;
+  right: 10px;
+  top: 10px;
+}
+.cus-border{
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-bottom: 2px solid #9ec5ca;
+  border-left: 2px solid #9ec5ca;
+  left: 10px;
+  bottom: 10px;
+}
+.cus-border-2{
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-bottom: 2px solid #9ec5ca;
+  border-right: 2px solid #9ec5ca;
+  right: 10px;
+  bottom: 10px;
+}
 
 
 
@@ -279,12 +331,25 @@
     .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
     .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
     .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
+
+    .offer-card-content h4 {font-size: 16px;}
+    .offer-card-wrap {padding: 0 10px;}
+    .exp-img-1 img {width: 138%;}
+    .exp-img-2 img {width: 68%;margin-top: 102px;margin-left: 50px;}
+    .custom-exp-content {padding-top: 30px;padding-left: 30px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
     .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
     .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
     .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
+
+    .offer-card-content h4 {font-size: 16px;}
+    .offer-card-wrap {padding: 0 10px;}
+    .exp-img-1 img {width: 138%;}
+    .exp-img-2 img {width: 68%;margin-top: 102px;margin-left: 50px;}
+    .custom-exp-content {padding-top: 30px;padding-left: 30px;}
+    .custom-offer .custom-heading {margin-bottom: 50px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -292,10 +357,26 @@
         margin-top: 6px !important;}
     .custom-header-navbar ul.navbar-nav li a {color: #fff;padding: 10px 0 !important;     border-bottom: 1px dashed #f1f1f1;font-size: 15px;}
     .custom-header-navbar ul.navbar-nav li:last-child a{border-bottom: 0;}
+    .header-btm .dropdown-menu {display: block;background-color: transparent !important;    box-shadow: none !important;border: 0;}
     .custom-banner .carousel-item img {height: 590px;object-fit: cover;}
     .custom-caption h2 {font-size: 52px;line-height: 58px;}
     .custom-caption p {font-size: 18px;margin: 18px 0 28px;}
     .custom-banner .carousel-item img {height: 420px;}
+
+    .custom-about p {font-size: 18px;line-height: 34px;margin-top: 0px;}
+    .custom-about {text-align: center;padding-left: 40px;padding-right: 40px;}
+    .custom-offer .custom-heading {margin-bottom: 40px;}
+    .exp-img-1 {left: 0;right: 0;width: 70%;}
+    .exp-img-2 img {width: 80%;margin-left: 0px;margin-top: 20px;}
+    
+    .custom-exp-content {padding-top: 30px;padding-left: 0px;text-align: center;}
+    .offer-card-wrap {margin-bottom: 30px;padding: 0 10px;}
+    .custom-offer.custom-pad {padding-bottom: 150px;}
+    .exp-img-1 img {width: 100%;height: 520px;}
+    .custom-exp-content .custom-button {margin-top: 10px;}
+    .custom-exp-content .custom-heading h3 {width: 100%;margin-left: 0;line-height: 26px;}
+    .custom-exp-content .custom-heading {margin-bottom: 20px;}
+    .custom-exp {padding-bottom: 60px;z-index: 9;}
     
 }
 
@@ -305,6 +386,8 @@
     .custom-caption h2 {font-size: 36px;line-height: 40px;}
     .custom-caption p {font-size: 14px; margin: 10px 0 19px;}
     .custom-banner .carousel-item img {height: 340px;}
+
+    .custom-banner .custom-button {padding: 12px 33px;}
 }
 
 @media (max-width: 575.98px){
@@ -318,4 +401,10 @@
 }
 @media only screen and (max-width: 390px) {	
     .custom-brand img {height: 22px;}
+    .custom-about p {font-size: 15px;line-height: 26px;}
+    .exp-img-1 {width: 90%;}
+    .exp-img-1 img {height: 400px;}
+    .custom-caption h2 {font-size: 26px;line-height: 32px;}
+    .custom-caption p {font-size: 14px;line-height: 20px;}
+    .custom-banner .carousel-item img {height: 280px;}
 }
