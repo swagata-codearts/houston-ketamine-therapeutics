@@ -355,10 +355,14 @@ right: 0;
 @media (min-width: 1920px) and (max-width: 2500px){
 
 }
-@media (min-width: 1600px) and (max-width: 1920px){
-.client-video-img img {height: 798px;width: 30%;object-fit: cover;}
-.video-modal .btn.btn-primary {left: 41%;}
-.container-fluid.container-gap {padding: 0 50px;}
+@media (min-width: 1800px) and (max-width: 1920px){
+
+}
+@media (min-width: 1700px) and (max-width: 1800px){
+
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
