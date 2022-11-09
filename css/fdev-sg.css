@@ -40,6 +40,42 @@ margin-top: 46px;
 .social-icons {
 margin-top: 24px;
 }
+.social-icons li:first-child a {
+background-color: #3b5998;
+height: 35px;
+width: 35px;
+border-radius: 4px;
+display: inline-block;
+text-align: center;
+line-height: 37px;
+}
+.social-icons li:nth-child(2) a {
+background-color: #3f729b;
+height: 35px;
+width: 35px;
+border-radius: 4px;
+display: inline-block;
+text-align: center;
+line-height: 37px;
+}
+.social-icons li:nth-child(3) a {
+background-color: #dc4e41;
+height: 35px;
+width: 35px;
+border-radius: 4px;
+display: inline-block;
+text-align: center;
+line-height: 37px;
+}
+.social-icons li:last-child a {
+background-color: #0077b5;
+height: 35px;
+width: 35px;
+border-radius: 4px;
+display: inline-block;
+text-align: center;
+line-height: 37px;
+}
 .teratment-list li {
 padding-bottom: 15px;
 }
@@ -98,35 +134,32 @@ padding: 34px 0;
 .footer-wrap.custom-pad {
 padding: 110px 0 0;
 }
-.footer-header.py-xl-3.py-2 .container-fluid {
-padding: 0 0;
+.footer-content.footer-4 {
+padding-left: 60px;
 }
-.footer-header.py-xl-3.py-2 .nav-link.active {
+.footer-header ul {
+display: inline-block;
+vertical-align: middle;
+}
+.footer-list li {
+display: inline-block;
+padding-left: 72px;
+}
+.footer-header {
+margin-top: 98px;
+}
+.footer-list li a {
+text-decoration: none;
 font-family: var(--ff-heading);
 font-size: 16px;
-font-weight: 600;
+font-weight: 500;
 color: var(--c-primary-light);
 text-transform: uppercase;
-padding-right: 0px;
-transition: 0.3s ease-in-out;
 }
-.footer-header.py-xl-3.py-2 .nav-link.active:hover {
-color:var(--c-primary)
-}
-.footer-header.py-xl-3.py-2 .nav-link {
-font-family: var(--ff-heading);
+.social-icons li a {
+text-decoration: none;
+color: var(--c-white);
 font-size: 16px;
-font-weight: 600;
-color: var(--c-primary-light);
-text-transform: uppercase;
-padding-left: 64px;
-transition: 0.3s ease-in-out;
-}
-.footer-header.py-xl-3.py-2 .nav-link:hover {
-color:var(--c-primary)
-}
-.footer-header.py-xl-3.py-2 {
-margin-top: 78px;
 }
 /*footer-fdev-sg*/
 /*contact-form-fdev-sg*/
@@ -140,11 +173,13 @@ margin-bottom: 20px;
 font-family: var(--ff-primary);
 font-size: 14px;
 font-weight: 400;
-background-color: var(--c-grey);
+background-color: #fbfbfb;
+color: var(--c-primary-text);
 }
-.contact-form #formGroupExampleInput2 {
-padding: 20px 20px 195px;
-background-color: var(--c-grey);
+.appointment-form textarea {
+padding: 20px 20px;
+height: 200px;
+background-color: #fbfbfb;
 }
 .contact-form .form-btn {
 text-align: center;
@@ -241,6 +276,12 @@ margin-top: 70px;
 }
 .testimonial.custom-pad .owl-dot.active {
 min-height: 40px;
+}
+.testimonial.custom-pad .owl-carousel .owl-item img {
+height: 70px;
+width: 70px;
+border-radius: 50px;
+object-fit: cover;
 }
 /*Testimonial-fdev-sg*/
 /*service-fdev-sg*/
