@@ -16,11 +16,20 @@
 @media (min-width: 1200px) and (max-width: 1366px){	
 .custom-pad {padding:90px 0;}
 .container {max-width: 1170px;}
+.custom-heading h3 {font-size: 35px;}
+.custom-heading h6 {margin-top: 18px;}
+.custom-heading {margin-bottom: 40px;}
+.custom-button.border-btn {padding: 15px 50px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
 .custom-pad {padding:80px 0;}
 .container {max-width: 1000px;}
+
+.custom-heading h3 {font-size: 35px;}
+.custom-heading h6 {margin-top: 18px;}
+.custom-heading {margin-bottom: 40px;}
+.custom-button.border-btn {padding: 15px 50px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
