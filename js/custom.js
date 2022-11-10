@@ -8,10 +8,7 @@ responsive:{
     0:{
         items:1
     },
-    600:{
-        items:1
-    },
-    800:{
+    768:{
         items:2
     },
     1200:{
