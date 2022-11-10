@@ -639,6 +639,29 @@ padding: 30px 0 0px;
 }
 
 /*why-choose-us-fdev-sg*/
+/*why-ketamine-fdev-sg*/
+.why-choose-text.why-ketamine-main p {
+padding: 0 0;
+}
+.why-choose-text.why-ketamine-main {
+padding: 0 50px;
+}
+.why-choose-text.why-ketamine-main .custom-heading {
+margin-bottom: 30px;
+}
+.why-choose-text.why-ketamine-main .custom-heading h3 {
+color: var(--c-white);
+}
+.ketamine-chart {
+text-align: center;
+}
+.ketamine-chart p {
+color: var(--c-primary-text);
+}
+.ketamine-chart img {
+margin-top: 30px;
+}
+/*why-ketamine-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px) {}
