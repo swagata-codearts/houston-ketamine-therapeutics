@@ -511,6 +511,37 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 110px 0;
 }
+.why-choose-card-content {
+    background-color: var(--c-white);
+    padding: 50px;
+    min-height: 460px;
+    text-align: center;
+    box-shadow: 0 0 16px rgba(0,0,0,0.07);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+  }
+  .why-choose-card-content:hover {
+    box-shadow: 0 0 22px rgba(59,175,191,0.3);
+    transform: scale(1.01);
+  }
+  .why-choose-card-content h4 {
+    font-family: var(--ff-heading);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--f-primary-heading);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--c-primary-light);
+    padding-bottom: 40px;
+  }
+  .why-choose-card-content p {
+    font-size: 18px;
+    color: var(--c-primary-text);
+    line-height: 36px;
+    font-weight: 400;
+    font-family: var(--ff-primary);
+    padding: 30px 0 0px;
+  }
 /*why-choose-us-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
