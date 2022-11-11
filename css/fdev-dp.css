@@ -541,11 +541,32 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  border-radius: 0 10px 0px 0;
 }
 .about-us-contact {
   background-color: #f7f7ff;
 }
+.about-us-contact-right-wrap {
+  background-color: var(--c-white);
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.06);
+  padding: 30px 30px;
+}
+.about-us-contact-right {
+  padding: 60px 80px;
+  text-align: center;
+}
+.about-us-contact-right-wrap .appointment-form input {
+  margin-bottom: 20px;
+}
+.about-us-contact-right-wrap input.custom-button{
+  margin-bottom: 0;
+}
+.about-us-contact-right-wrap .appointment-form textarea{
+  height: 100px;
+}
+
+
+
 
 
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -576,6 +597,13 @@
     .exp-img-1 img {width: 138%;}
     .exp-img-2 img {width: 68%;margin-top: 102px;margin-left: 50px;}
     .custom-exp-content {padding-top: 30px;padding-left: 30px;}
+
+    .custom-inner-banner {padding: 80px 0;}
+    .custom-inner-about-left-img {width: 50%;}
+    .custom-inner-about-left-content {width: 38%;}
+    .custom-inner-about-left {margin-bottom: 20px;}
+    .custom-inner-about {text-align: center;}
+    .custom-inner-about p {font-size: 16px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -589,6 +617,13 @@
     .exp-img-2 img {width: 68%;margin-top: 102px;margin-left: 50px;}
     .custom-exp-content {padding-top: 30px;padding-left: 30px;}
     .custom-offer .custom-heading {margin-bottom: 50px;}
+
+    .custom-inner-banner {padding: 80px 0;}
+    .custom-inner-about-left-img {width: 50%;}
+    .custom-inner-about-left-content {width: 38%;}
+    .custom-inner-about-left {margin-bottom: 20px;}
+    .custom-inner-about {text-align: center;}
+    .custom-inner-about p {font-size: 16px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -616,6 +651,14 @@
     .custom-exp-content .custom-heading h3 {width: 100%;margin-left: 0;line-height: 26px;}
     .custom-exp-content .custom-heading {margin-bottom: 20px;}
     .custom-exp {padding-bottom: 60px;z-index: 9;}
+
+    .custom-inner-banner {padding: 80px 0;}
+    .custom-inner-about-left-img {width: 50%;}
+    .custom-inner-about-left-content {width: 38%;}
+    .custom-inner-about-left {margin-bottom: 20px;}
+    .custom-inner-about {text-align: center;}
+    .custom-inner-about p {font-size: 16px;}
+    .custom-expart-keta-img {width: 80%;margin-bottom: 60px;}
     
 }
 
@@ -627,16 +670,35 @@
     .custom-banner .carousel-item img {height: 340px;}
 
     .custom-banner .custom-button {padding: 12px 33px;}
+
+    .custom-inner-about-left-img {width: 70%;}
+    .custom-inner-about-left-content {width: 60%;}
+    .abt-tes-item p {font-size: 15px;}
+    .custom-gallery-about a img {height: 166px;}
+    .about-us-contact-right {padding: 60px 0px;}
+    .custom-gallery-about .container .row.imglist .col-xl-4:last-child a{margin-bottom: 0 !important;}
 }
 
 @media (max-width: 575.98px){
     .header-top-col-wrap a p {display: none;}
     .header-top-col-wrap a span {width: 30px;height: 30px;background-color: var(--c-primary);
         color: var(--c-white);text-align: center;border-radius: 2px;line-height: 31px;}
+
+        .custom-gallery-about a img {height: auto;}
+        
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+  .custom-inner-about-left-img {width: 90%;}
+  .custom-inner-about-left-content {width: 80%;}
+  .custom-inner-about-left-content h4 {font-size: 16px;}
+  .custom-inner-about-left-content h4 span {font-size: 12px;margin-top: 4px;}
+  .custom-inner-about-left-img::before {left: -14px;top: -14px;border: 4px solid var(--c-primary);}
+  .custom-inner-about p {font-size: 14px;}
+  .banner-content-wrap h2 {font-size: 32px;}
+  .custom-inner-banner {padding: 40px 0;}
+  .inner-banner-breadcam li {font-size: 12px;}
+  
 }
 @media only screen and (max-width: 390px) {	
     .custom-brand img {height: 22px;}
@@ -646,4 +708,6 @@
     .custom-caption h2 {font-size: 26px;line-height: 32px;}
     .custom-caption p {font-size: 14px;line-height: 20px;}
     .custom-banner .carousel-item img {height: 280px;}
+    .custom-expart-keta-img {width: 96%;box-shadow: 10px 10px 0 var(--c-primary);margin-bottom: 30px;}
+    .custom-values .custom-expart-keta-img {box-shadow: -10px 10px 0 var(--c-primary);}
 }
