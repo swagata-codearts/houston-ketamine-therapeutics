@@ -674,6 +674,24 @@ margin-top: 0px;
 padding-top: 30px;
 }
 /*understanding-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-accordion.custom-pad {
+background-color: #f7f7ff;
+}
+.faq-accordion.custom-pad  .accordion-button {
+padding: 2rem 1.25rem;
+}
+.faq-content {
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.faq-content .accordion-button.collapsed {
+font-family: var(--ff-heading);
+font-size: 18px;
+font-weight: 500;
+color: var(--f-primary-heading);
+text-transform: capitalize;
+}
+/*faq-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px) {
