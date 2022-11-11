@@ -806,6 +806,28 @@ color: #51c1d1;
 padding: 40px;
 }
 /*deep-tms-fdev-sg*/
+/*questionaire-fdev-sg*/
+.questionaire-content-text {
+text-align: center;
+background-color: var(--c-white);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+transition: all 0.2s ease-in-out;
+}
+.questionaire-content-text:hover {
+box-shadow: 0 0 25px rgba(59, 175, 191, 0.4); 
+background-color: var(--c-blue-light);
+}
+.questionaire-content-text p a {
+text-decoration: none;
+color: var(--c-primary);
+font-weight: 700;
+}
+.questionaire-content-text p a:hover {
+color: var(--c-primary-text);
+}
+/*questionaire-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px) {
