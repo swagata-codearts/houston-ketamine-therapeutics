@@ -705,6 +705,64 @@ line-height: 35px;
 color: var(--c-primary-text);
 }
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.price.custom-pad {
+background-color: #f7f7ff;  
+}
+.price-content p {
+text-align: center;
+box-shadow: 0 0 20px rgba(0,0,0,0.08);
+background-color: var(--c-white);
+padding: 40px;
+transition: all 0.1s ease-in-out;
+border-radius: 10px;
+}
+.price-content p:hover {
+box-shadow: 0 0 22px rgba(59, 175, 191, 0.3);
+}
+.price-card {
+background-color: var(--c-blue-light);
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+min-height: 420px;
+padding: 30px;
+border-radius: 10px;
+transition: all 0.3s ease-in-out;
+}
+.price-card:hover {
+box-shadow: 0 0 25px rgba(59, 175, 191, 0.4); 
+}
+.price-card-content {
+text-align: center;
+}
+.price-card-content h5 {
+font-family: var(--ff-heading);
+font-size: 22px;
+font-weight: 600;
+color: var(--f-primary-heading);
+text-transform: uppercase;
+padding: 20px 0;
+border-bottom: 1px solid var(--c-primary-light);
+}
+.price-card-content h2 {
+font-family: var(--ff-heading);
+font-size: 50px;
+font-weight: 600;
+color: var(--c-primary);
+padding: 20px 0;
+border-bottom: 1px solid var(--c-primary-light);
+}
+.price-card-content h6 {
+font-family: var(--ff-heading);
+font-size: 20px;
+font-weight: 500;
+color: var(--c-primary-text);
+padding: 35px 0;
+border-bottom: 1px solid var(--c-primary-light);
+}
+.price-card-content p {
+padding: 20px 0 0;
+}
+/*pricing-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px) {
@@ -892,6 +950,12 @@ color: var(--c-primary-text);
 /*faq-fdev-sg*/
 .faq-content .accordion-body {line-height: 26px;}
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.price-card-content h5 {padding: 15px 0;font-size: 19px;}
+.price-card-content h2 {font-size: 45px;padding: 15px 0;}
+.price-card-content h6 {font-size: 18px;padding: 30px 0;}
+.price-card {min-height: 360px;}
+/*pricing-fdev-sg*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -952,6 +1016,12 @@ color: var(--c-primary-text);
 .faq-content .accordion-button.collapsed {font-size: 17px;}
 .faq-content .accordion-button {font-size: 17px;}
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.price-card-content h5 {padding: 15px 0;font-size: 19px;}
+.price-card-content h2 {font-size: 45px;padding: 15px 0;}
+.price-card-content h6 {font-size: 18px;padding: 30px 0;}
+.price-card {min-height: 360px;}
+/*pricing-fdev-sg*/
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -1031,6 +1101,13 @@ color: var(--c-primary-text);
 .faq-content .accordion-button.collapsed {font-size: 17px;font-weight: 600;}
 .faq-content .accordion-button {font-size: 17px;font-weight: 600;}
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.price-card-content h5 {padding: 15px 0;font-size: 17px;}
+.price-card-content h2 {font-size: 40px;padding: 15px 0;}
+.price-card-content h6 {font-size: 16px;padding: 25px 0;}
+.price-card {min-height: 360px;}
+.pricing-card.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
+/*pricing-fdev-sg*/
 }
 
 
@@ -1066,6 +1143,11 @@ color: var(--c-primary-text);
 .faq-content .accordion-button.collapsed {font-size: 15px;}
 .faq-content .accordion-button {font-size: 15px;}
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.price-card {margin-bottom: 40px;}
+.pricing-card.custom-pad {padding: 50px 0 30px;}
+.price-content p {padding: 30px;}
+/*pricing-fdev-sg*/
 }
 
 @media (max-width: 575.98px) {
@@ -1095,6 +1177,11 @@ color: var(--c-primary-text);
 .faq-content .accordion-button.collapsed {font-size: 14px;line-height: 20px;}
 .faq-content .accordion-button {font-size: 14px;line-height: 20px;}
 /*faq-fdev-sg*/
+/*pricing-fdev-sg*/
+.pricing-card.custom-pad {padding: 40px 0 10px;}
+.price-content p {padding: 25px;}
+.price-card {padding: 30px 15px;}
+/*pricing-fdev-sg*/
 }
 
 @media only screen and (max-width: 480.98px) {
