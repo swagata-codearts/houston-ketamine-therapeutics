@@ -11,6 +11,7 @@
 @media (min-width: 1366px) and (max-width: 1600px){
 .container {max-width: 1200px;}
 .custom-heading h3 {font-size: 38px;}
+p {font-size: 16px; line-height: 30px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){	
@@ -20,6 +21,7 @@
 .custom-heading h6 {margin-top: 18px;}
 .custom-heading {margin-bottom: 40px;}
 .custom-button.border-btn {padding: 15px 50px;}
+p {font-size: 16px; line-height: 30px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -29,6 +31,7 @@
 .custom-heading h6 {margin-top: 18px;}
 .custom-heading {margin-bottom: 40px;}
 .custom-button.border-btn {padding: 15px 50px;}
+p {font-size: 14px; line-height: 26px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -37,6 +40,7 @@
 .custom-heading h6 {margin-top: 18px;}
 .custom-heading {margin-bottom: 40px;}
 .custom-button.border-btn {padding: 15px 50px;}
+p {font-size: 14px; line-height: 24px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -55,6 +59,7 @@
 .custom-heading {margin-bottom: 20px;}
 .custom-button.border-btn {padding: 14px 44px;font-size: 12px;}
 .custom-heading h6 {line-height: 25px;}
+p {font-size: 14px; line-height: 26px;}
 }
 
 
@@ -62,6 +67,7 @@
 .custom-pad {padding:50px 0;}
 .custom-heading h6 {font-size: 14px;}
 .custom-heading h3 {font-size: 24px;}
+p {font-size: 14px; line-height: 24px;}
 }
 
 @media (max-width: 575.98px){
