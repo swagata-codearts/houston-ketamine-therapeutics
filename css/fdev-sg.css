@@ -814,8 +814,7 @@ color: var(--c-primary-text);
 .quote {right: 10px;}
 .footer-list li {padding-left: 40px;}
 .footer-list li a {font-size: 14px;}
-.footer-header {
-margin-top: 65px;}
+.footer-header {margin-top: 65px;}
 .footer-list.img a img {height: 28px;}
 .footer-content.footer-4 {padding-left: 30px;}
 .footer-wrap.custom-pad {padding: 100px 0 0;}
@@ -834,6 +833,9 @@ margin-top: 65px;}
 .why-choose-text.why-ketamine-main {padding: 0 20px;}
 .ketamine-chart p {padding: 0 30px;}
 /*why-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-body {line-height: 30px;}
+/*faq-fdev-sg*/
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
 .container-fluid.container-gap {padding: 0 50px;}
@@ -887,6 +889,9 @@ margin-top: 65px;}
 .why-choose-text.why-ketamine-main {padding: 0 20px;}
 .ketamine-chart p {padding: 0 30px;}
 /*why-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-body {line-height: 26px;}
+/*faq-fdev-sg*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -941,6 +946,12 @@ margin-top: 65px;}
 .why-choose-text.why-ketamine-main {padding: 0 20px;}
 .ketamine-chart p {padding: 0 50px;}
 /*why-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-body {font-size:14px;line-height: 24px;}
+.faq-accordion.custom-pad .accordion-button {padding: 1.5rem 1.25rem;}
+.faq-content .accordion-button.collapsed {font-size: 17px;}
+.faq-content .accordion-button {font-size: 17px;}
+/*faq-fdev-sg*/
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -1014,6 +1025,12 @@ margin-top: 65px;}
 .ketamine-chart p {padding: 0 30px;}
 .why-choose-text.why-ketamine-main .custom-heading {margin-bottom: 10px;}
 /*why-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-body {font-size:14px;line-height: 24px;}
+.faq-accordion.custom-pad .accordion-button {padding: 1.5rem 1.25rem;}
+.faq-content .accordion-button.collapsed {font-size: 17px;font-weight: 600;}
+.faq-content .accordion-button {font-size: 17px;font-weight: 600;}
+/*faq-fdev-sg*/
 }
 
 
@@ -1045,6 +1062,10 @@ margin-top: 65px;}
 .why-choose-text.why-ketamine-main .custom-heading {margin-bottom: 0px;}
 .ketamine-chart p {padding: 0 0px;}
 /*why-ketamine-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-button.collapsed {font-size: 15px;}
+.faq-content .accordion-button {font-size: 15px;}
+/*faq-fdev-sg*/
 }
 
 @media (max-width: 575.98px) {
@@ -1070,6 +1091,10 @@ margin-top: 65px;}
 .why-choose-card-content h4 {font-size: 22px;padding-bottom: 20px;}
 .why-choose-card-content p {padding: 20px 0 0px;}
 /*why-choose-us-fdev-sg*/
+/*faq-fdev-sg*/
+.faq-content .accordion-button.collapsed {font-size: 14px;line-height: 20px;}
+.faq-content .accordion-button {font-size: 14px;line-height: 20px;}
+/*faq-fdev-sg*/
 }
 
 @media only screen and (max-width: 480.98px) {
