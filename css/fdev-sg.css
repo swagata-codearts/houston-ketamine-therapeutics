@@ -1315,6 +1315,7 @@ display: none;
 .contact-location-content {min-height: 240px;}
 .contact-location-content.date {margin-top: 20px;}
 .contant-form-section.custom-pad .form-control {padding: 15px 20px;}
+.contact-location.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
 /*Make-An-Appointment-fdev-sg*/
 }
 
@@ -1417,7 +1418,7 @@ display: none;
 .tms-chart-content p {padding: 20px 20px;}
 /*deep-tms-fdev-sg*/
 /*Make-An-Appointment-fdev-sg*/
-.contact-location-content {padding: 16px;}
+.contact-location-content {padding: 25px;}
 .location-content-list li a br {display: block;}
 /*Make-An-Appointment-fdev-sg*/
 }
