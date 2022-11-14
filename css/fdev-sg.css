@@ -675,22 +675,58 @@ object-fit: cover;
 background-color: var(--c-white);
 }
 .understanding-ketamine-box-content {
-padding: 30px;
 background-color: var(--c-white);
 box-shadow: 0 0 14px rgba(0,0,0,0.2);
 min-height: 610px;
+border-radius: 10px;
 }
 .understanding-ketamine-box-content h4 {
 font-family: var(--ff-heading);
 font-size: 22px;
 font-weight: 600;
 text-align: center;
-border-bottom: 1px solid var(--c-primary-light);
-padding: 0 0 20px 0;
-color: var(--f-primary-heading);
+color: var(--c-white);
+background-color: var(--c-primary);
+padding: 20px 0;
+text-transform: uppercase;
+border-radius: 10px 10px 0px 0px;
 }
 .understanding-ketamine-box-content ul li {
 padding: 10px 0;
+border-bottom: 1px solid var(--c-primary-light);
+}
+.understanding-ketamine-box-content ul {
+padding: 20px 30px 0;
+}
+.short-services {
+text-align: center;
+}
+.short-services ul li a {
+text-decoration: none;
+font-family: var(--ff-primary);
+font-size: 18px;
+color: var(--c-primary-text);
+font-weight: 400;
+transition: all 0.3s ease-in-out;
+}
+.short-services ul li a:hover {
+color: var(--c-primary);
+}
+.short-services ul li a:hover span {
+padding-left: 30px;
+}
+.short-services ul li {
+padding: 15px 0;
+background-color: var(--c-primary-light);
+margin: 12px 0;
+box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+.short-services ul li a span {
+padding-left: 20px;
+transition: all 0.3s ease-in-out;
+}
+.understanding-ketamine-text {
+padding: 0 100px 0 0;
 }
 /*understanding-ketamine-fdev-sg*/
 /*faq-fdev-sg*/
