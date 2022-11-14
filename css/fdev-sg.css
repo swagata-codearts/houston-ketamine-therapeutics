@@ -1014,6 +1014,9 @@ display: none;
 .service-box-top-txt {padding: 30px 35px;}
 .service-box-bottom-txt {padding: 30px 35px;}
 .quote {right: 10px;}
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 540px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media (min-width: 1366px) and (max-width: 1600px) {
@@ -1057,6 +1060,11 @@ display: none;
 .contact-location-content h4 {font-size: 22px;}
 .contact-location-content h4::after {height: 3px;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 520px;}
+.understanding-ketamine-box-content ul li {padding: 8px 0;}
+.understanding-ketamine-text {padding: 0 60px 0 0;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
@@ -1120,6 +1128,15 @@ display: none;
 .contact-location-content h4::after {height: 3px;}
 .contact-location-content .location-content-list li a {font-size: 15px;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 460px;}
+.understanding-ketamine-box-content ul li {padding: 8px 0;}
+.understanding-ketamine-text {padding: 0 60px 0 0;}
+.understanding-ketamine-box-content ul {padding: 10px 20px 0;}
+.understanding-ketamine-box-content h4 {font-size: 20px;padding: 16px 0;}
+.short-services ul li a {font-size: 15px;}
+.understanding-ketamine-text .custom-heading {margin-bottom: 40px;}
+/*understanding-ketamine-fdev-sg*/
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
 .container-fluid.container-gap {padding: 0 50px;}
@@ -1193,6 +1210,15 @@ display: none;
 .contact-location-content .location-content-list li a {font-size: 15px;}
 .contant-form-section.custom-pad .form-btn {padding-top: 15px;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 430px;}
+.understanding-ketamine-box-content ul li {padding: 8px 0;}
+.understanding-ketamine-text {padding: 0 20px 0 0;}
+.understanding-ketamine-box-content ul {padding: 10px 20px 0;}
+.understanding-ketamine-box-content h4 {font-size: 20px;padding: 16px 0;}
+.short-services ul li a {font-size: 15px;}
+.understanding-ketamine-text .custom-heading {margin-bottom: 30px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -1271,6 +1297,15 @@ display: none;
 .contant-form-section.custom-pad .form-btn {padding-top: 10px;}
 .contact-location-content {min-height: 260px;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 425px;}
+.understanding-ketamine-box-content ul li {padding: 8px 0;}
+.understanding-ketamine-text {padding: 0 20px 0 0;}
+.understanding-ketamine-box-content ul {padding: 4px 20px 0;}
+.understanding-ketamine-box-content h4 {font-size: 17px;padding: 16px 0;}
+.short-services ul li a {font-size: 15px;}
+.understanding-ketamine-text .custom-heading {margin-bottom: 20px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -1372,6 +1407,17 @@ display: none;
 .contant-form-section.custom-pad .form-control {padding: 15px 20px;}
 .contact-location.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 290px;}
+.understanding-ketamine-box-content ul li {padding: 8px 0;}
+.understanding-ketamine-text {padding: 0 0px 0 0;text-align: center;}
+.understanding-ketamine-box-content ul {padding: 4px 20px 0;}
+.understanding-ketamine-box-content h4 {font-size: 17px;padding: 16px 0;}
+.short-services ul li a {font-size: 15px;}
+.understanding-ketamine-text .custom-heading {margin-bottom: 20px;}
+.understanding-ketamine-box {margin-top: 30px;}
+.short-services {margin-top: 30px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 
@@ -1412,6 +1458,9 @@ display: none;
 .pricing-card.custom-pad {padding: 50px 0 30px;}
 .price-content p {padding: 30px;}
 /*pricing-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 330px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media (max-width: 575.98px) {
@@ -1449,6 +1498,9 @@ display: none;
 /*deep-tms-fdev-sg*/
 .tms-chart-content p {text-align: center;}
 /*deep-tms-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height: 350px;}
+/*understanding-ketamine-fdev-sg*/
 }
 
 @media only screen and (max-width: 480.98px) {
@@ -1476,5 +1528,9 @@ display: none;
 .contact-location-content {padding: 25px;}
 .location-content-list li a br {display: block;}
 /*Make-An-Appointment-fdev-sg*/
+/*understanding-ketamine-fdev-sg*/
+.understanding-ketamine-box-content {min-height:425px;}
+.understanding-ketamine-box-content ul {padding: 4px 15px 0;}
+/*understanding-ketamine-fdev-sg*/
 }
 /*Responsive-End-fdev-sg*/
