@@ -870,54 +870,54 @@ color: var(--c-primary);
 font-size: 18px;
 }
 .contact-location-content h4 {
-    font-family: var(--ff-heading);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--f-primary-heading);
-    position: relative;
-    margin-bottom: 40px;
-  }
-  .contact-location-content h4::after {
-    position: absolute;
-    content: '';
-    background-color: var(--c-primary);
-    width: 50px;
-    height: 4px;
-    bottom: -15px;
-    left: 0;
-  }
+font-family: var(--ff-heading);
+font-size: 24px;
+font-weight: 600;
+color: var(--f-primary-heading);
+position: relative;
+margin-bottom: 40px;
+}
+.contact-location-content h4::after {
+position: absolute;
+content: '';
+background-color: var(--c-primary);
+width: 50px;
+height: 4px;
+bottom: -15px;
+left: 0;
+}
 .contact-location-content h5 {
 font-family: var(--ff-primary);
 font-size: 17px;
 font-weight: 400;
 color: var(--c-primary-text);
-  }
-  .contact-location-content {
-    background-color: var(--c-white);
-    padding: 30px;
-  }
-  .contact-location-content.date {
-    text-align: center;
-  }
-  .contact-location-content.date h4::after {
-    left: 0;
-    right: 0;
-    margin: 0 auto;
 }
 .contact-location-content {
-    background-color: var(--c-white);
-    padding: 30px;
-    min-height: 250px;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease-in-out;
-  }
-  .contact-location-content:hover {
-  box-shadow: 0 0 25px rgba(59, 175, 191, 0.4);
-  }
-  .location-content-list li a br {
-    display: none;
-  }
+background-color: var(--c-white);
+padding: 30px;
+}
+.contact-location-content.date {
+text-align: center;
+}
+.contact-location-content.date h4::after {
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+.contact-location-content {
+background-color: var(--c-white);
+padding: 30px;
+min-height: 250px;
+border-radius: 5px;
+box-shadow: 0 0 20px rgba(0,0,0,0.08);
+transition: all 0.3s ease-in-out;
+}
+.contact-location-content:hover {
+box-shadow: 0 0 25px rgba(59, 175, 191, 0.4);
+}
+.location-content-list li a br {
+display: none;
+}
 /*Make-An-Appointment-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
