@@ -828,6 +828,94 @@ font-weight: 700;
 color: var(--c-primary-text);
 }
 /*questionaire-fdev-sg*/
+/*Make-An-Appointment-fdev-sg*/
+.contant-form-section.custom-pad .custom-heading {
+text-align: center;
+}
+.contant-form-section.custom-pad .form-btn {
+text-align: center;
+padding-top: 30px;
+}
+.contant-form-section.custom-pad .form-control {
+border-radius: 0;
+padding: 20px 20px;
+margin-bottom: 20px;
+font-family: var(--ff-primary);
+font-size: 14px;
+font-weight: 400;
+background-color: #fbfbfb;
+color: var(--c-primary-text);
+}
+.contact-location.custom-pad {
+background-color: #f7f7ff;
+}
+.contact-location-content .location-content-list li {
+padding-bottom: 15px;
+position: relative;
+padding-left: 30px;
+}
+.contact-location-content .location-content-list li a {
+font-family: var(--ff-primary);
+font-size: 17px;
+font-weight: 400;
+color: var(--c-primary-text);
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+}
+.contact-location-content .location-content-list li a span {
+position: absolute;
+left: 0;
+display: inline-block;
+color: var(--c-primary);
+font-size: 18px;
+}
+.contact-location-content h4 {
+    font-family: var(--ff-heading);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--f-primary-heading);
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .contact-location-content h4::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-primary);
+    width: 50px;
+    height: 4px;
+    bottom: -15px;
+    left: 0;
+  }
+.contact-location-content h5 {
+font-family: var(--ff-primary);
+font-size: 17px;
+font-weight: 400;
+color: var(--c-primary-text);
+  }
+  .contact-location-content {
+    background-color: var(--c-white);
+    padding: 30px;
+  }
+  .contact-location-content.date {
+    text-align: center;
+  }
+  .contact-location-content.date h4::after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.contact-location-content {
+    background-color: var(--c-white);
+    padding: 30px;
+    min-height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-location-content:hover {
+  box-shadow: 0 0 25px rgba(59, 175, 191, 0.4);
+  }
+/*Make-An-Appointment-fdev-sg*/
 /*=======================Inner-page-end-fdev-sg======================*/
 /*Responsive-Start-fdev-sg*/
 @media (min-width: 1920px) and (max-width: 2500px) {
