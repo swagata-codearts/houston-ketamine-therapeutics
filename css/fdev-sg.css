@@ -667,11 +667,30 @@ width: 100%;
 }
 /*why-ketamine-fdev-sg*/
 /*understanding-ketamine-fdev-sg*/
-.ketamine-chart.understanding-ketamine-chart img {
-margin-top: 0px;
+.understanding-ketamine-img img {
+width: 100%;
+object-fit: cover;
 }
-.why-choose-text.why-ketamine-main.understanding-ketamine-text p:last-child {
-padding-top: 30px;
+.why-choose-us-content.why-ketamine-main.custom-pad {
+background-color: var(--c-white);
+}
+.understanding-ketamine-box-content {
+padding: 30px;
+background-color: var(--c-white);
+box-shadow: 0 0 14px rgba(0,0,0,0.2);
+min-height: 610px;
+}
+.understanding-ketamine-box-content h4 {
+font-family: var(--ff-heading);
+font-size: 22px;
+font-weight: 600;
+text-align: center;
+border-bottom: 1px solid var(--c-primary-light);
+padding: 0 0 20px 0;
+color: var(--f-primary-heading);
+}
+.understanding-ketamine-box-content ul li {
+padding: 10px 0;
 }
 /*understanding-ketamine-fdev-sg*/
 /*faq-fdev-sg*/
