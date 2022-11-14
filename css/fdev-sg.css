@@ -640,6 +640,9 @@ padding: 30px 0 0px;
 
 /*why-choose-us-fdev-sg*/
 /*why-ketamine-fdev-sg*/
+.why-choose-us-content.why-ketamine-main.custom-pad {
+background-color: #222d35;
+}
 .why-choose-text.why-ketamine-main p {
 padding: 0 0;
 }
@@ -670,9 +673,6 @@ width: 100%;
 .understanding-ketamine-img img {
 width: 100%;
 object-fit: cover;
-}
-.why-choose-us-content.why-ketamine-main.custom-pad {
-background-color: var(--c-white);
 }
 .understanding-ketamine-box-content {
 background-color: var(--c-white);
