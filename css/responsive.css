@@ -80,7 +80,7 @@ p {font-size: 16px; line-height: 30px;}
 .service-box-top-txt {padding: 30px 30px;}
 .service-box-bottom-txt {padding: 30px 30px;}
 .quote {right: 10px;}
-.why-choose-card-content {min-height: 500px;}
+.why-choose-card-content {min-height: 420px;}
 .why-choose-text.why-ketamine-main {padding: 0 20px;}
 .why-choose-text.deep-tms p {padding: 20px;}
 .contact-location-content h4 {font-size: 22px;}
@@ -144,7 +144,7 @@ p {font-size: 16px; line-height: 30px;}
 .service-box-bottom-txt {padding: 20px 20px;}
 .quote {right: 10px;}
 .service-box-top-txt h4 {font-size: 14px;}
-.why-choose-card-content {min-height: 450px;}
+.why-choose-card-content {min-height: 370px;}
 .why-choose-text p {padding: 0 20px;}
 .why-choose-card-content {padding: 30px;}
 .why-choose-card-content h4 {font-size: 26px;padding-bottom: 30px;}
@@ -156,7 +156,7 @@ p {font-size: 16px; line-height: 30px;}
 .contact-location-content h4 {font-size: 20px;}
 .contact-location-content h4::after {height: 3px;}
 .contact-location-content .location-content-list li a {font-size: 15px;}
-.understanding-ketamine-box-content {min-height: 460px;}
+.understanding-ketamine-box-content {min-height: 500px;}
 .understanding-ketamine-box-content ul li {padding: 8px 0;}
 .understanding-ketamine-text {padding: 0 60px 0 0;}
 .understanding-ketamine-box-content ul {padding: 10px 20px 0;}
@@ -233,7 +233,7 @@ p {font-size: 14px; line-height: 26px;}
 .service-box-bottom-txt {padding: 20px 20px;}
 .quote {right: 10px;}
 .service-box-top-txt h4 {font-size: 14px;}
-.why-choose-card-content {min-height: 450px;}
+.why-choose-card-content {min-height: 360px;}
 .why-choose-text p {padding: 0 20px;}
 .why-choose-card-content {padding: 30px;}
 .why-choose-card-content h4 {font-size: 26px;padding-bottom: 30px;}
@@ -270,6 +270,7 @@ p {font-size: 14px; line-height: 26px;}
 .custom-heading {margin-bottom: 40px;}
 .custom-button.border-btn {padding: 15px 50px;}
 p {font-size: 14px; line-height: 24px;}
+.banner-content-wrap h2 {font-size: 48px;}
 /*========fdev-dp-Start==========*/
 .custom-header-navbar ul.navbar-nav li {margin: 0 9px;}
 .custom-header-navbar ul.navbar-nav li a {font-size: 11px;}
@@ -329,7 +330,7 @@ p {font-size: 14px; line-height: 24px;}
 .service-box-bottom-txt {padding: 20px 20px;}
 .quote {right: 10px;}
 .service-box-top-txt h4 {font-size: 14px;}
-.why-choose-card-content {min-height: 450px;}
+.why-choose-card-content {min-height: 350px;}
 .why-choose-text p {padding: 0 20px;}
 .why-choose-card-content {padding: 30px;}
 .why-choose-card-content h4 {font-size: 26px;padding-bottom: 30px;}
@@ -465,7 +466,7 @@ p {font-size: 14px; line-height: 26px;}
 .service-box-bottom-txt {padding: 25px 25px;}
 .quote {right: 0px;}
 .service-box-top-txt h4 {font-size: 16px;}
-.why-choose-card-content {min-height: 330px;}
+.why-choose-card-content {min-height: 280px;}
 .why-choose-text p {padding: 0 20px;}
 .why-choose-card-content {padding: 30px;margin-bottom: 20px;}
 .why-choose-card-content h4 {font-size: 26px;padding-bottom: 30px;}
