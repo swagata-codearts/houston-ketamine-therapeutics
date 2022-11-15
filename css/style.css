@@ -210,12 +210,11 @@ margin: 0;
 .header-top-col-wrap a {
 display: flex;
 align-items: center;
-
 }
 .header-top-col-wrap a span {
 margin: 0 6px 0 0;
 font-size: 18px;
-
+color: var(--c-primary);
 }
 .header-top-col-wrap a p{
 font-size:14px;
@@ -1580,6 +1579,12 @@ box-shadow: 0 0 25px rgba(59, 175, 191, 0.4);
 }
 .location-content-list li a br {
 display: none;
+}
+.contact-location-content .location-content-list li:last-child {
+padding-bottom: 0;
+}
+.custom-gallery-about.ketamine-gallery.custom-pad {
+background-color: transparent;
 }
 /*========fdev-sg-End==========*/
 /*Home-and-inner-page-End*/

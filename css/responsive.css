@@ -88,6 +88,7 @@ p {font-size: 16px; line-height: 30px;}
 .understanding-ketamine-box-content {min-height: 520px;}
 .understanding-ketamine-box-content ul li {padding: 8px 0;}
 .understanding-ketamine-text {padding: 0 60px 0 0;}
+.contact-location-content {min-height: 235px;}
 /*========fdev-sg-End==========*/
 }
 
@@ -162,6 +163,7 @@ p {font-size: 16px; line-height: 30px;}
 .understanding-ketamine-box-content h4 {font-size: 20px;padding: 16px 0;}
 .short-services ul li a {font-size: 15px;}
 .understanding-ketamine-text .custom-heading {margin-bottom: 40px;}
+.contact-location-content {min-height: 230px;}
 /*========fdev-sg-End==========*/
 }
 
@@ -188,6 +190,7 @@ p {font-size: 14px; line-height: 26px;}
 .custom-inner-about-left {margin-bottom: 20px;}
 .custom-inner-about {text-align: center;}
 .custom-inner-about p {font-size: 16px;}
+.custom-exp {padding-bottom: 90px;}
 /*========fdev-dp-End==========*/
 /*========fdev-sg-Start==========*/
 .container-fluid.container-gap {padding: 0 50px;}
@@ -256,6 +259,7 @@ p {font-size: 14px; line-height: 26px;}
 .understanding-ketamine-box-content h4 {font-size: 20px;padding: 16px 0;}
 .short-services ul li a {font-size: 15px;}
 .understanding-ketamine-text .custom-heading {margin-bottom: 30px;}
+.contact-location-content {min-height: 220px;}
 /*========fdev-sg-End==========*/
 }
 
@@ -282,6 +286,7 @@ p {font-size: 14px; line-height: 24px;}
 .custom-inner-about-left {margin-bottom: 20px;}
 .custom-inner-about {text-align: center;}
 .custom-inner-about p {font-size: 16px;}
+.custom-exp {padding-bottom: 80px;}
 /*========fdev-dp-End==========*/
 /*========fdev-sg-Start==========*/
 .container-fluid.container-gap {padding: 0 30px;}
@@ -346,7 +351,7 @@ p {font-size: 14px; line-height: 24px;}
 .contact-location-content h4::after {height: 3px;}
 .contact-location-content .location-content-list li a {font-size: 15px;}
 .contant-form-section.custom-pad .form-btn {padding-top: 10px;}
-.contact-location-content {min-height: 260px;}
+.contact-location-content {min-height: 250px;}
 .understanding-ketamine-box-content {min-height: 425px;}
 .understanding-ketamine-box-content ul li {padding: 8px 0;}
 .understanding-ketamine-text {padding: 0 20px 0 0;}
@@ -403,6 +408,7 @@ p {font-size: 14px; line-height: 26px;}
 .custom-inner-about {text-align: center;}
 .custom-inner-about p {font-size: 16px;}
 .custom-expart-keta-img {width: 80%;margin-bottom: 60px;}
+.banner-content-wrap h2 {font-size: 46px;}
 /*========fdev-dp-End==========*/
 /*========fdev-sg-Start==========*/
 .container-fluid.container-gap {padding: 0 15px;}
@@ -487,7 +493,7 @@ p {font-size: 14px; line-height: 26px;}
 .contact-location-content h4::after {height: 3px;}
 .contact-location-content .location-content-list li a {font-size: 15px;}
 .contant-form-section.custom-pad .form-btn {padding-top: 10px;}
-.contact-location-content {min-height: 240px;}
+.contact-location-content {min-height: 220px;}
 .contact-location-content.date {margin-top: 20px;}
 .contant-form-section.custom-pad .form-control {padding: 15px 20px;}
 .contact-location.custom-pad .px-4 {padding-right: 1rem !important;padding-left: 1rem !important;}
@@ -520,6 +526,7 @@ p {font-size: 14px; line-height: 24px;}
 .custom-gallery-about a img {height: 166px;}
 .about-us-contact-right {padding: 60px 0px;}
 .custom-gallery-about .container .row.imglist .col-xl-4:last-child a{margin-bottom: 0 !important;}
+.banner-content-wrap h2 {font-size: 40px;}
 /*========fdev-dp-End==========*/
 /*========fdev-sg-Start==========*/
 .client-video-img img {width: 100%;height: 22%;object-fit: cover;}
@@ -581,7 +588,7 @@ p {font-size: 14px; line-height: 24px;}
 .teratment-list {margin-top: 42px;}
 .footer-content .contact-list {margin-top: 42px;}
 .footer-list li {padding: 10px 25px 0px 0px;}
-.client-video-content {bottom: 88px;}
+.client-video-content {bottom: 88px;text-align: center;}
 .why-choose-card-content h4 {font-size: 22px;padding-bottom: 20px;}
 .why-choose-card-content p {padding: 20px 0 0px;}
 .faq-content .accordion-button.collapsed {font-size: 14px;line-height: 20px;}
@@ -591,6 +598,8 @@ p {font-size: 14px; line-height: 24px;}
 .price-card {padding: 30px 15px;}
 .tms-chart-content p {text-align: center;}
 .understanding-ketamine-box-content {min-height: 350px;}
+.client-video .modal-dialog {max-width: 100%;}
+.contact-location-content {min-height: 240px;}
 /*========fdev-sg-End==========*/
 }
 
@@ -628,6 +637,7 @@ p {font-size: 14px; line-height: 24px;}
 .location-content-list li a br {display: block;}
 .understanding-ketamine-box-content {min-height:425px;}
 .understanding-ketamine-box-content ul {padding: 4px 15px 0;}
+.client-video {min-height: 680px;}
 /*========fdev-sg-End==========*/
 }
 @media only screen and (max-width: 390px) {	
@@ -642,5 +652,12 @@ p {font-size: 14px; line-height: 24px;}
 .custom-expart-keta-img {width: 96%;box-shadow: 10px 10px 0 var(--c-primary);margin-bottom: 30px;}
 .custom-values .custom-expart-keta-img {box-shadow: -10px 10px 0 var(--c-primary);}
 /*========fdev-dp-End==========*/
+/*========fdev-sg-Start==========*/
+.client-video {min-height: 700px;}
+/*========fdev-sg-End==========*/
 }
-
+@media only screen and (max-width: 360px) {	
+/*========fdev-sg-Start==========*/
+.client-video {min-height: 770px;}
+/*========fdev-sg-Start==========*/
+}
